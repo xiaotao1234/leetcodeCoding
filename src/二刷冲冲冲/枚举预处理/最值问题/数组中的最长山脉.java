@@ -1,6 +1,4 @@
-package 二刷冲冲冲.动态规划.最值问题;
-
-import java.util.Arrays;
+package 二刷冲冲冲.枚举预处理.最值问题;
 
 /**
  * @author xt

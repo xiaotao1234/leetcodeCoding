@@ -1,4 +1,4 @@
-package 每日一题;
+package 二刷冲冲冲.树;
 
 import org.w3c.dom.Node;
 
@@ -45,4 +45,12 @@ public class 填充每个节点的下一个右侧节点指针2 {
             }
         }
     }
+
+//    public void get(Node node) {
+//        if (node == null) return;
+//        if (node.left != null){
+//            if(no)
+//            node.left.next
+//        }
+//    }
 }

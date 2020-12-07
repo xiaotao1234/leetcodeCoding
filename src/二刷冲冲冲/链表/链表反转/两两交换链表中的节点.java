@@ -1,4 +1,4 @@
-package 二刷冲冲冲.链表;
+package 二刷冲冲冲.链表.链表反转;
 
 /**
  * @author xt
@@ -27,7 +27,7 @@ public class 两两交换链表中的节点 {
     public ListNode swapPairs(ListNode listNode) {//递归
         if (listNode == null || listNode.next == null) return listNode;
         ListNode listNode1 = listNode.next;
-        listNode.next = listNode1.next;
+        listNode.next = swapPairs(listNode1.next);
         listNode1.next = listNode;
         return listNode1;
     }
